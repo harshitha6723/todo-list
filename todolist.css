@@ -1,0 +1,99 @@
+body {
+    font-family: 'Comic Sans MS', cursive, sans-serif;
+    background: #f3e5f5;
+    margin: 0;
+    padding: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+}
+
+.container {
+    background: #ffffff;
+    border-radius: 10px;
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
+    padding: 20px;
+    width: 90%;
+    max-width: 400px;
+    text-align: center;
+}
+
+h1 {
+    color: #4a148c;
+    margin-bottom: 20px;
+    font-family: 'Brush Script MT', cursive;
+}
+
+.inputContainer {
+    display: flex;
+    justify-content: center;
+    margin-bottom: 20px;
+}
+
+#taskInput {
+    width: 70%;
+    padding: 10px;
+    border: 1px solid #ce93d8;
+    border-radius: 5px;
+    font-size: 16px;
+    background-color: #e1bee7;
+    font-family: 'Comic Sans MS', cursive, sans-serif;
+}
+
+button {
+    padding: 10px 20px;
+    border: none;
+    background-color: #ab47bc;
+    color: white;
+    cursor: pointer;
+    border-radius: 5px;
+    margin-left: 10px;
+    font-size: 16px;
+    font-family: 'Comic Sans MS', cursive, sans-serif;
+}
+
+button:hover {
+    background-color: #8e24aa;
+}
+
+ul {
+    list-style-type: none;
+    padding: 0;
+}
+
+li {
+    background: #f3e5f5;
+    margin: 10px 0;
+    padding: 10px;
+    border-radius: 5px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    transition: background 0.3s;
+    font-family: 'Comic Sans MS', cursive, sans-serif;
+}
+
+li.completed {
+    text-decoration: line-through;
+    background: #d1c4e9;
+}
+
+li button {
+    background-color: #e57373;
+    border: none;
+    color: white;
+    padding: 5px 10px;
+    cursor: pointer;
+    border-radius: 5px;
+    font-size: 14px;
+    font-family: 'Comic Sans MS', cursive, sans-serif;
+}
+
+li button:hover {
+    background-color: #ef5350;
+}
+
+li input[type="checkbox"] {
+    margin-right: 10px;
+}
